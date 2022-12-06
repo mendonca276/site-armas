@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+  
+
+}
+
+.corpo{
+    background-image: url(../imgs/militar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 880px;
+    position: fixed;
+}
+.menu{
+    width: 100%;
+    height: 60px;
+    display: flex;
+ 
+}
+.esq{
+  
+    width: 30%;
+    height: 100%;
+ 
+}
+.center{
+    width: 40%;
+    height: 100%;
+}
+.dire{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: end;
+}
+
+#selva{
+    display: flex;
+    position: relative;
+    bottom: 40%;
+    left: 2%;
+}
+.login{
+    font-size: 15px;
+    padding: 50px;
+   
+}
+.login a {
+    font-size: 15px;
+    padding: 50px;
+    text-decoration: none;
+   
+
+}
+a h4{
+    font-family: 'Questrial', sans-serif;
+
+    background-color: black;
+    width: 80px;
+    color: white;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    position: relative;
+}
+.viagens{
+    width: 100%;
+    height: auto;
+    background-color: blueviolet;
+}
+.cadd{
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    
+    width: 100%;
+    height: auto;
+    background-color: blueviolet;
+    
+}
+.dados{
+    margin-top: 1%;
+    margin-left: 2%;
+    background-color: cadetblue;
+    width: 200px;
+    height: 100px;
+}
+.box{
+    background-color: #fff;
+    top: 880px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  
+}
+
+.sc{
+    background-color: rgb(0, 0, 0);
+   margin-left: 20px;
+   display: flex;
+   color: rgb(255, 255, 255);
+   border-radius: 10px;
+   flex-direction: column;
+    margin-top: 5%;
+   
+  margin: 30px;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    height: 320px;
+    
+}
+h1{
+    font-size: 100px;
+    font-family: 'Mulish', sans-serif;
+
+}
+.corpo h1{
+    color: aliceblue;
+    margin-top: 20%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+p img{
+ border-radius: 10px;
+    width:100%;
+    height: 160px;
+}
+#pag{
+    font-size: 20px;
+    padding-top: 12px;
+}
+#pag a{
+    color: rgb(17, 255, 0);
+   
+    text-decoration: none;
+}
