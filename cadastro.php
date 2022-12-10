@@ -32,10 +32,7 @@
                 <input type="text" name="cpf" id="">
                 <p>Função:</p>
 
-                <!-- Arrumar e adentar codigo..  -->
-                <!-- Tirar os <br> e arrumar no CSS os espaçamento do jeito que  esta na tela.. -->
-                <!-- Deixar o codigo visivel.. -->
-
+               
                 <br>
                 <p>Admin</p>
                 <input type="radio" name="funcao" id="" value="admin">

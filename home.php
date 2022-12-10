@@ -55,19 +55,19 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         require('connect-armas.php');
         $cadastros = mysqli_query($con,"Select * From `tb_armas` ORDER BY `codigo`");
         echo "<div class=\"box\">";
-        while($contato = mysqli_fetch_array($cadastros)){
+        while($cadastro = mysqli_fetch_array($cadastros)){
           echo "<div class=\"sc\">";
          
           //Validação de foto
-          if($contato['foto'] != ""){
-          echo "<p><img src=$contato[foto]></p> ";
+          if($cadastro['foto'] != ""){
+          echo "<p><img src=$cadastro[foto]></p> ";
           }else{
           echo "<p><img src=imgs/default.png></p>";
           }
 
-          echo "<p id= pag >$contato[armas]</p>";
-          echo "<p id= pag >Descricão: $contato[descricao]</p>";
-          echo "<p id= pag >Preço: $contato[preco]</p>";
+          echo "<p id= pag >$cadastro[armas]</p>";
+          echo "<p id= pag >Descricão: $cadastro[descricao]</p>";
+          echo "<p id= pag >Preço: $cadastro[preco]</p>";
           echo "<h3 id=pag ><a href=login.php>COMPRAR</a></h3>";
 
           echo "</div>";
